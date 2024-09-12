@@ -2,13 +2,14 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>gripper_controller</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="antonione@gmail.com">anonione</maintainer>
+  <version>0.0.1</version>
+  <description>Pacote para controle da garra do manipulador via ROS2</description>
+  <maintainer email="antonione@gmail.com">Antonione</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>ur_msgs</depend>
+  <depend>std_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
